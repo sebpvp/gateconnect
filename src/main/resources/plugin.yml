@@ -1,0 +1,21 @@
+name: GateConnect
+version: 2.0
+main: fr.revivemc.gateconnect.GateConnect
+description: Controle les connexions aux serveurs selon la version Minecraft
+author: SEB_PVP_
+website: https://revivemc.fr
+
+softdepend:
+  - ViaVersion
+
+commands:
+  gateconnect:
+    description: Connecte un joueur a un serveur avec controle de version
+    usage: /gateconnect <serveur> [joueur]
+    permission: gateconnect.use
+    permission-message: '&cTu n''as pas la permission d''utiliser cette commande.'
+
+permissions:
+  gateconnect.use:
+    description: Autorise l'utilisation de la commande GateConnect
+    default: op

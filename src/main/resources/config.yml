@@ -1,0 +1,24 @@
+# Protocoles autorises par serveur (min/max)
+# 47 = 1.8.x | 766 = 1.20.5/1.20.6 | 767+ = 1.21.x
+servers:
+  build:
+    min: 47
+    max: 47
+  bedwars:
+    min: 47
+    max: 47
+  EVENT:
+    min: 47
+    max: 47
+  build1206:
+    min: 766
+    max: 766
+  smp:
+    min: 767
+    max: 9999
+  lobby3:
+    min: 767
+    max: 9999
+
+messages:
+  denied: '&cCe serveur n''accepte pas ta version de Minecraft.'
